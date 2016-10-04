@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Exercise 3</title>
+	<script type="text/javascript" src="formChecker.js"></script>
+</head>
+<body>
+
+<h2>Power-Up Shop!</h2>
+   
+
+<form name="myForm"  onsubmit="return validateForm()" action="customerBackend.php" method="post">
+
+		<p>Username: <input type="text" name="user"></p>
+		<p>Password <input type="text" name="pass"></p>
+
+		<h4> Mushroom................$200</h4> <input type="number" name="item1"><br>
+		<h4> Fire Flower...............$400</h4> <input type="number" name="item2"><br>
+		<h4> Ice Flower................$500</h4> <input type="number" name="item3"><br>
+
+		Please select a shipping option: <br>
+		<input type="radio" name="q1" value="1"> Free 7 day<br>
+		<input type="radio" name="q1" value="2"> $50.00 over night<br>
+		<input type="radio" name="q1" value="3"> $5.00 three day<br>
+
+		<input type="submit" Name="Submit1">  
+		<button type="reset" value="Reset">Reset</button>
+    </form>
+
+</body>
+</html> 
